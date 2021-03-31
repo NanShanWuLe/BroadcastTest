@@ -1,4 +1,4 @@
-# BroadcastTest
+# BroadcastTest  静态广播
 ### *2021-3-31*
 安卓8.0版本之后无法使用intent广播在AndroidManifest.xml中注册后发送intent是接收不到广播了，
 看了一下原因，好像是8.0为了管理系统和节约电量特别针对广播和服务发送intent的方式启动做出的改变，也就是说广播和服务不能随意收intent了，
